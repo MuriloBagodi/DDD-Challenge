@@ -1,0 +1,16 @@
+{
+  "name": "ddd-challenge",
+  "version": "1.0.0",
+  "description": "Entidades: - **Produto.**   - ProdutoID.   - Nome do produto.   - Preço do produto.   - QTD mínimo.   - Descrição do produto.     - Cor do produto.     - Tamanho do produto. - **Estoque.**   - QTD em estoque.   - ProdutoID. - **Venda.**   - ProdutoID.   - QTD Produto.   - QTD vendida.   - Total de Lucro.   - Data da venda.   - Preço unitário. - **Histórico.**   - ProdutoID.   - Data movimentação.   - Entrada ou saída.   - QTD movimentada. - **Alerta.**   - ProdutoID.   - Tipo de alerta.   - Data do alerta. - **Compra.**   - ProdutoID.   - FornecedorID.   - QTD comprada.   - Preço unitário.   - Data da compra.   - Prazo de entrega. - **Operador.**   - OperadorID   - Nome do operador.   - CPF do operador.   - Cargo do operador. - **Fornecedor.**   - Nome fornecedor.   - Contato.   - Prazo de entrega.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
